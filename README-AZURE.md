@@ -1,5 +1,6 @@
 # Deploying this static site to Azure Static Web Apps
 
+Deploy 1 
 Steps to deploy:
 
 1. Create an Azure Static Web App resource in the Azure Portal or via the CLI. Use the repository you will push from (GitHub).
