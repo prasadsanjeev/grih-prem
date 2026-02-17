@@ -1,10 +1,30 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+# GRiH Real Estate Website - Robots.txt
+# This file tells search engines how to crawl and index the website
 
-# START WPFORMS BLOCK
-# ---------------------------
 User-agent: *
-Disallow: /wp-content/uploads/wpforms/
-# ---------------------------
-# END WPFORMS BLOCK
+Allow: /
+Allow: /wp-content/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+Disallow: /?p=
+Disallow: /*?*
+Disallow: /*?view=
+Disallow: /feed/
+Disallow: /comments/
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://grih.ca/sitemap.xml
+
+# Host
+Host: https://grih.ca
