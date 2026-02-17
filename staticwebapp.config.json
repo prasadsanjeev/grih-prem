@@ -1,0 +1,25 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/wp-content/*",
+      "/wp-includes/*",
+      "/robots.txt",
+      "/sitemap.xml",
+      "/**/*.xml",
+      "/**/*.json",
+      "/**/*.png",
+      "/**/*.jpg",
+      "/**/*.jpeg",
+      "/**/*.gif",
+      "/**/*.svg",
+      "/**/*.css",
+      "/**/*.js"
+    ]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  }
+}
